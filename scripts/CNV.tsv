@@ -1,0 +1,154 @@
+gene	strain	chr	reference	ref_chr	n_copies	%_match	e.value	bitscore
+IMA1	W303	NA	Saccharomyces_cerevisiae_S288C	VII	1	99.718	323511	0
+IMA1	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	VII	1	99.605	45432	0
+IMA1	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	VII	1	98.478	45119	0
+IMA1	MAL	NA	Saccharomyces_cerevisiae_S288C	VII	1	97.232	705079	0
+IMA1	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	96.215	1026005	0
+IMA1	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	96.104	42300	0
+IMA2	W303	NA	Saccharomyces_cerevisiae_S288C	XV	5	100	22383	0
+IMA2	ANE	XV_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	99.435	23428	0
+IMA2	W303	NA	Saccharomyces_cerevisiae_S288C	XV	5	99.209	374590	0
+IMA2	W303	NA	Saccharomyces_cerevisiae_S288C	XV	5	98.927	733672	0
+IMA2	ANE	IX_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.814	47389	0
+IMA2	BAL	XV_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.757	1050269	0
+IMA2	MAL	NA	Saccharomyces_cerevisiae_S288C	XV	3	98.701	12790	0
+IMA2	BAL	IX_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.701	286157	0
+IMA2	W303	NA	Saccharomyces_cerevisiae_S288C	XV	5	98.531	2652	0
+IMA2	W303	NA	Saccharomyces_cerevisiae_S288C	XV	5	98.531	4171	0
+IMA2	ANE	X_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.533	12411	0
+IMA2	MAL	NA	Saccharomyces_cerevisiae_S288C	XV	3	98.305	1049838	0
+IMA2	CFF	XV_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.249	18827	0
+IMA2	CEI	XV_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	98.136	4358	0
+IMA2	MAL	NA	Saccharomyces_cerevisiae_S288C	XV	3	98.079	12390	0
+IMA2	CEI	IX_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	97.628	424212	0
+IMA2	CEI	X_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	97.685	725981	0
+IMA2	BAL	X_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	97.631	703603	0
+IMA2	CFF	X_contig_1	Saccharomyces_cerevisiae_S288C	XV	1	97.18	348551	0
+IMA3	W303	NA	Saccharomyces_cerevisiae_S288C	IX	5	99.887	2652	0
+IMA3	W303	NA	Saccharomyces_cerevisiae_S288C	IX	5	99.661	733672	0
+IMA3	W303	NA	Saccharomyces_cerevisiae_S288C	IX	5	99.379	374590	0
+IMA3	W303	NA	Saccharomyces_cerevisiae_S288C	IX	5	99.322	4171	0
+IMA3	ANE	IX_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	99.209	47389	0
+IMA3	BAL	XV_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.983	1050269	0
+IMA3	MAL	NA	Saccharomyces_cerevisiae_S288C	IX	3	98.87	1049838	0
+IMA3	BAL	IX_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.814	286157	0
+IMA3	CFF	XV_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.701	18827	0
+IMA3	W303	NA	Saccharomyces_cerevisiae_S288C	IX	5	98.588	22383	0
+IMA3	ANE	XV_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.531	23428	0
+IMA3	MAL	NA	Saccharomyces_cerevisiae_S288C	IX	3	98.418	12790	0
+IMA3	MAL	NA	Saccharomyces_cerevisiae_S288C	IX	3	98.305	12390	0
+IMA3	ANE	X_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.363	12411	0
+IMA3	CEI	XV_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	98.249	4358	0
+IMA3	CEI	X_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	97.911	725981	0
+IMA3	CEI	IX_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	97.741	424212	0
+IMA3	BAL	X_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	97.8	703603	0
+IMA3	CFF	X_contig_1	Saccharomyces_cerevisiae_S288C	IX	1	97.575	348551	0
+IMA4	W303	NA	Saccharomyces_cerevisiae_S288C	X	5	99.887	2652	0
+IMA4	W303	NA	Saccharomyces_cerevisiae_S288C	X	5	99.661	733672	0
+IMA4	W303	NA	Saccharomyces_cerevisiae_S288C	X	5	99.379	374590	0
+IMA4	W303	NA	Saccharomyces_cerevisiae_S288C	X	5	99.322	4171	0
+IMA4	ANE	IX_contig_1	Saccharomyces_cerevisiae_S288C	X	1	99.209	47389	0
+IMA4	BAL	XV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.983	1050269	0
+IMA4	MAL	NA	Saccharomyces_cerevisiae_S288C	X	3	98.87	1049838	0
+IMA4	BAL	IX_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.814	286157	0
+IMA4	CFF	XV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.701	18827	0
+IMA4	W303	NA	Saccharomyces_cerevisiae_S288C	X	5	98.588	22383	0
+IMA4	ANE	XV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.531	23428	0
+IMA4	MAL	NA	Saccharomyces_cerevisiae_S288C	X	3	98.418	12790	0
+IMA4	MAL	NA	Saccharomyces_cerevisiae_S288C	X	3	98.305	12390	0
+IMA4	ANE	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.363	12411	0
+IMA4	CEI	XV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.249	4358	0
+IMA4	CEI	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	97.911	725981	0
+IMA4	CEI	IX_contig_1	Saccharomyces_cerevisiae_S288C	X	1	97.741	424212	0
+IMA4	BAL	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	97.8	703603	0
+IMA4	CFF	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	97.575	348551	0
+IMA5	W303	NA	Saccharomyces_cerevisiae_S288C	X	1	100	726098	0
+IMA5	ANE	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.855	19994	0
+IMA5	BAL	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	98.11	696449	0
+IMA5	CEI	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	97.824	718626	0
+IMA5	CFF	X_contig_1	Saccharomyces_cerevisiae_S288C	X	1	96.163	340967	0
+MAL11	W303	NA	Saccharomyces_cerevisiae_S288C	VII	1	100	330252	0
+MAL11	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	VII	1	99.784	38692	0
+MAL11	MAL	NA	Saccharomyces_cerevisiae_S288C	VII	1	99.298	711838	0
+MAL11	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	99.19	35856	0
+MAL11	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	98.703	1032536	0
+MAL11	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	VII	1	98.596	38364	0
+MAL12	W303	NA	Saccharomyces_cerevisiae_S288C	VII	2	99.943	334642	0
+MAL12	W303	NA	Saccharomyces_cerevisiae_S288C	VII	2	99.544	5937	0
+MAL12	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	VII	1	99.43	22338	0
+MAL12	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	VII	1	99.203	13055	0
+MAL12	MAL	NA	Saccharomyces_cerevisiae_S288C	VII	2	98.803	736749	0
+MAL12	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	98.123	1057954	0
+MAL12	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	97.674	10186	0
+MAL12	ANE	II_contig_3	Saccharomyces_cerevisiae_S288C	VII	1	99.286	6223	0
+MAL12	MAL	NA	Saccharomyces_cerevisiae_S288C	VII	2	98.81	6345	0
+MAL12	CEI	II_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	97.619	792374	0
+MAL13	W303	NA	Saccharomyces_cerevisiae_S288C	VII	1	100	328003	0
+MAL13	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	VII	1	99.93	40940	0
+MAL13	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	VII	1	99.367	40613	0
+MAL13	MAL	NA	Saccharomyces_cerevisiae_S288C	VII	1	99.086	709581	0
+MAL13	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	98.664	37795	0
+MAL13	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	VII	1	97.187	1030511	0
+MAL21	CFF	VII_contig_6	Saccharomyces_cerevisiae_ATCC_20598	III	1	98.701	26813	0
+MAL21	W303	NA	Saccharomyces_cerevisiae_ATCC_20598	III	1	98.428	10411	0
+MAL23	CFF	VII_contig_6	Saccharomyces_cerevisiae	III	1	96.446	27421	0
+MAL23	ANE	VII_contig_2	Saccharomyces_cerevisiae	III	1	95.411	18156	0
+MAL23	CEI	VII_contig_1	Saccharomyces_cerevisiae	III	1	95.169	15299	0
+MAL31	W303	NA	Saccharomyces_cerevisiae_S288C	II	1	100	10411	0
+MAL31	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	II	1	97.78	26813	0
+MAL31	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	II	1	95.939	14667	0
+MAL31	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	II	1	95.777	17528	0
+MAL31	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	II	1	95.398	1053477	0
+MAL32	W303	NA	Saccharomyces_cerevisiae_S288C	II	2	100	5937	0
+MAL32	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	II	1	99.772	22338	0
+MAL32	W303	NA	Saccharomyces_cerevisiae_S288C	II	2	99.601	334642	0
+MAL32	ANE	VII_contig_2	Saccharomyces_cerevisiae_S288C	II	1	99.544	13055	0
+MAL32	MAL	NA	Saccharomyces_cerevisiae_S288C	II	2	99.031	736749	0
+MAL32	BAL	VII_contig_1	Saccharomyces_cerevisiae_S288C	II	1	98.464	1057954	0
+MAL32	CEI	VII_contig_1	Saccharomyces_cerevisiae_S288C	II	1	98.015	10186	0
+MAL32	ANE	II_contig_3	Saccharomyces_cerevisiae_S288C	II	1	99.524	6223	0
+MAL32	MAL	NA	Saccharomyces_cerevisiae_S288C	II	2	99.048	6345	0
+MAL32	CEI	II_contig_1	Saccharomyces_cerevisiae_S288C	II	1	97.857	792374	0
+MAL33	W303	NA	Saccharomyces_cerevisiae_S288C	II	1	100	11113	0
+MAL33	MAL	NA	Saccharomyces_cerevisiae_S288C	II	1	98.34	7278	0
+MAL33	ANE	II_contig_3	Saccharomyces_cerevisiae_S288C	II	1	98.257	7156	0
+MAL33	CEI	II_contig_1	Saccharomyces_cerevisiae_S288C	II	1	97.759	791441	0
+MAL61	W303	NA	Saccharomyces_cerevisiae		2	99.17	10462	0
+MAL61	CFF	VII_contig_6	Saccharomyces_cerevisiae		1	98.017	26864	0
+MAL61	ANE	VII_contig_2	Saccharomyces_cerevisiae		1	96.574	17579	0
+MAL61	CEI	VII_contig_1	Saccharomyces_cerevisiae		1	96.213	14718	0
+MAL61	BAL	VII_contig_1	Saccharomyces_cerevisiae		1	95.456	1053426	0
+MAL61	W303	NA	Saccharomyces_cerevisiae		2	99.787	332418	0
+MAL63	CFF	VII_contig_6	Saccharomyces_cerevisiae_S288C	IV	1	97.839	27492	0
+MPH2	W303	NA	Saccharomyces_cerevisiae_S288C	IV	2	99.891	869924	0
+MPH2	W303	NA	Saccharomyces_cerevisiae_S288C	IV	2	99.891	6875	0
+MPH2	ANE	IV_contig_1	Saccharomyces_cerevisiae_S288C	IV	1	99.836	7838	0
+MPH2	MAL	NA	Saccharomyces_cerevisiae_S288C	IV	1	99.782	1462222	0
+MPH2	BAL	IV_contig_1	Saccharomyces_cerevisiae_S288C	IV	1	99.29	5965	0
+MPH3	W303	NA	Saccharomyces_cerevisiae_S288C	X	2	99.945	869946	0
+MPH3	W303	NA	Saccharomyces_cerevisiae_S288C	X	2	99.945	6853	0
+MPH3	ANE	IV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	99.889	7816	0
+MPH3	MAL	NA	Saccharomyces_cerevisiae_S288C	X	1	99.834	1462244	0
+MPH3	BAL	IV_contig_1	Saccharomyces_cerevisiae_S288C	X	1	99.337	5943	0
+STA1	4490	NA	S.cerevisiae_var.diastaticus		1	96.448	43603	0
+STA1	W303	NA	S.cerevisiae_var.diastaticus		5	98.697	211344	0
+STA1	W303	NA	S.cerevisiae_var.diastaticus		5	97.577	1068	0
+STA1	W303	NA	S.cerevisiae_var.diastaticus		5	96.309	456	4.51e-137
+STA1	W303	NA	S.cerevisiae_var.diastaticus		5	95.876	455	5.2e-37
+STA1	ANE	IX_contig_2	S.cerevisiae_var.diastaticus		1	98.695	112926	0
+STA1	MAL	NA	S.cerevisiae_var.diastaticus		2	98.525	175409	0
+STA1	MAL	NA	S.cerevisiae_var.diastaticus		2	97.558	379645	0
+STA1	CFF	IX_contig_2	S.cerevisiae_var.diastaticus		3	98.525	88862	0
+STA1	CFF	IX_contig_2	S.cerevisiae_var.diastaticus		3	97.558	300033	0
+STA1	CFF	IX_contig_2	S.cerevisiae_var.diastaticus		3	95.023	302727	2.87e-94
+STA1	BAL	IX_contig_2	S.cerevisiae_var.diastaticus		1	98.242	189727	0
+STA1	CEI	IX_contig_1	S.cerevisiae_var.diastaticus		4	96.348	261566	0
+STA1	CEI	IX_contig_1	S.cerevisiae_var.diastaticus		4	95.995	51061	0
+STA1	CEI	IX_contig_1	S.cerevisiae_var.diastaticus		4	95.475	48136	6.18e-96
+STA1	CEI	IX_contig_1	S.cerevisiae_var.diastaticus		4	95.283	50593	2.4e-40
+STA1	BAL	IX_contig_3	S.cerevisiae_var.diastaticus		2	97.558	34857	0
+STA1	BAL	IX_contig_3	S.cerevisiae_var.diastaticus		2	95.023	38097	2.87e-94
+STA1	ANE	IX_contig_4	S.cerevisiae_var.diastaticus		3	97.9	57201	0
+STA1	ANE	IX_contig_4	S.cerevisiae_var.diastaticus		3	95.475	60186	6.18e-96
+STA1	ANE	IX_contig_4	S.cerevisiae_var.diastaticus		3	96.651	57813	2.87e-94
+STA1	W303	NA	S.cerevisiae_var.diastaticus		5	95.023	960	1.03e-93

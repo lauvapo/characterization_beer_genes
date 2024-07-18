@@ -1,0 +1,218 @@
+CLUSTAL format alignment by MAFFT G-INS-i (v7.520)
+
+
+CFF_chrVII_cont ------------------------------------------------------------
+CEI_chrVII_cont ------------------------------------------------------------
+ANE_chrVII_cont ------------------------------------------------------------
+BAL_chrVII_cont tcatttattcacaacagatggggtgcttcgcccttcatctaccacagaagtttccaaatc
+                                                                            
+
+CFF_chrVII_cont ------------------------------------------------------------
+CEI_chrVII_cont ------------------------------------------------------------
+ANE_chrVII_cont ------------------------------------------------------------
+BAL_chrVII_cont ttccttcggatctttaacattaatttctgcagcagctgctttggcagctgcaaaagggtc
+                                                                            
+
+CFF_chrVII_cont ------------------------------------------------------------
+CEI_chrVII_cont ------------------------------------------------------------
+ANE_chrVII_cont ------------------------------------------------------------
+BAL_chrVII_cont caccttagttgacttgaactttcttgctggaacaccaagtctaaacaattcatttatttc
+                                                                            
+
+CFF_chrVII_cont -----atgaagggattatcctcattaataaacagaaaaaaagacagg---aacgactcac
+CEI_chrVII_cont -----atgaagggcttatcctcattaataaacagaaaaaaagacagg---aacgactcac
+ANE_chrVII_cont -----atgaagggcttatcctcattaataaacagaaaaaaagacagg---aacgactcac
+BAL_chrVII_cont cataaatgttctgccagcggtttctggtaaatcgacaacagcccaagctaaagtggccag
+                     ***    * . ..  *. .*..****. ** ** *.  **.*   **  . .** 
+
+CFF_chrVII_cont acttagatgagatcgagaatggcgtgaac--gctaccgaattcaactcgatagagatgga
+CEI_chrVII_cont acttagatgagatagagaatggcgtgaac--gctaccgaattcaactcgatagagatgga
+ANE_chrVII_cont acttagatgagatcgagaatggcgtgaac--gctaccgaattcaactcgatagagatgga
+BAL_chrVII_cont acataatcctccccagaaaaagcccgacttggcaccccagttccatttctctgagttcaa
+                ** **. .    . ...** .** .** .  **  ** *.*** *.*.  . *** * .*
+
+CFF_chrVII_cont --ggagcaaggtaagaaaagtgattttgatctttcccatcttg-----agtacggtccag
+CEI_chrVII_cont --ggagcaaggtaagaaaagtgattttgatctttcccatcttg-----agtacggtccag
+ANE_chrVII_cont --ggagcaaggtaagaaaagtgattttgatctttcccatcttg-----agtacggtccag
+BAL_chrVII_cont ttggtacatgatcaaaactgtgactacaatacttatcacattgtaagcattacgagccaa
+                  ** .** *.* *.**  ****.* ..** .** .**. ***     * ****. ***.
+
+CFF_chrVII_cont gttcactaacaccaaac--gataataatgaagaagtccccgaccttctcgatgaagc--t
+CEI_chrVII_cont gttcactaacaccaaac--gataataatgaagaagttcccgaccttctcgatgaagc--t
+ANE_chrVII_cont gctcactaacaccaaac--gataataatgaagaagtccccgaccttctcgatgaagc--t
+BAL_chrVII_cont aataattgttttggttcttagccttgaagacggtatttcagacactaagcaaaaaacaac
+                . * *.*. . . .  *  ...  *.* ** *. .*..* *** .*    * .**.*  .
+
+CFF_chrVII_cont atgcaggacgccaaagaggcagatgaaagtga----------gaggggaatgccactcat
+CEI_chrVII_cont atgcaggacgccaaagaggcagatgaaagtga----------gaggggaatgccactcat
+ANE_chrVII_cont atgcaggacgccaaagaggcagatgaaagtga----------gaggggaatgccacttat
+BAL_chrVII_cont aggtgcaataccgaggttgtaaaagaacgcgacaaccattagaagagcaccactacccat
+                * *.. .*..**.*.*  *.*.* *** *.**          .**.* * ..*.**..**
+
+CFF_chrVII_cont tacagctttgaagac------atatccaaaagctgctgcttggtcactattagtttccac
+CEI_chrVII_cont gacagctttgaagac------atatccaaaagctgctgcttggtcactattagtttccac
+ANE_chrVII_cont gacagctttgaagac------atatccaaaagctgctgcttggtcactattagtttccac
+BAL_chrVII_cont tttagcgccatgagtgtctgaacatcccaaaccaccgataatgaagaacataatagcctg
+                  .*** ... ....      *.**** *** *  * ..   *  .    **.*  **  
+
+CFF_chrVII_cont aacattgattcaagagggttatgacacagccattctaggagctttctatgccctgcctgt
+CEI_chrVII_cont aacattgattcaagagggttatgacacagccattctaggatctttctatgccctacctgt
+ANE_chrVII_cont aacattgattcaagagggttatgacacagccattctaggatctttctacgccctgcccgt
+BAL_chrVII_cont aaaagccagcccaaaggtataaaggtcaaatctgccacaatattt-tgaaccccaccagg
+                ** * . * .* *.***  ** ..  **. . * *.* .*  *** *. .***..** * 
+
+CFF_chrVII_cont ttttcaacaaaaatatggttctttgaatagcaatacaggagattatgaaatttcagtttc
+CEI_chrVII_cont ttttcaaaaaaaatatggttctttgaatagcagcacaggagattatgaaatttcagtttc
+ANE_chrVII_cont ttttcaacaaaaatatggttctttgaatagcaatacaggagattatgaaatttcagtttc
+BAL_chrVII_cont atataaac---------gttgcagcaataccaagacaatactggataatactaaaagtaa
+                 * * **          *** .   **** **. ***. *    **.* *.*  *. *  
+
+CFF_chrVII_cont ctggcaaatcggcttgtccttatgctacatggcaggtgaaattgtggggctacagctaac
+CEI_chrVII_cont ctggcaaatcggtttatgtttatgctacatggcaggtgagattgtgggtttgcaaatgac
+ANE_chrVII_cont ctggcaaatcggtctatgtttatgctacatggctggtgaaattgtaggtttgcaaatgac
+BAL_chrVII_cont aagccgtatcagtgctaacaccagctttttcataaaagtaagt-tgaataaccaattaat
+                  * *. ***.*. .   . .  *** . * .. .. * .* * *...    **. *.*.
+
+CFF_chrVII_cont ggggccctccgtggatcttgttggaaatcgttacactctgatcatggcgttgttcttttt
+CEI_chrVII_cont tgggccttttgtagattacatgggtaaccgttacactttgatcatggcgttgttcttttt
+ANE_chrVII_cont tgggccttttgtagattatatgggtaaccgttacactttgatcatggcgttgttcttttt
+BAL_chrVII_cont gatgcaccacaagaggtttg------accgatccaacatatacaagctattctcgttctt
+                 . ** .. .. ... . ..      *.** * ** . *.  ** * ..** *. **.**
+
+CFF_chrVII_cont agcggctttcattttcattctgtatttttgcaagagtttgggtatgattgccgtgggaca
+CEI_chrVII_cont agcggctttcattttcattctgtatttttgcaagagtttgggtatgattgctgtgggaca
+ANE_chrVII_cont agcggctttcattttcattctgtatttttgcaagagtttgggtatgattgctgtgggaca
+BAL_chrVII_cont ctccggttaataccatctttcacacaatcccagtaagtt------------ccttcatca
+                  * * **    .. . **....*.  *. **. *. **            . *  . **
+
+CFF_chrVII_cont ggcattgtgtggtatgccatggggttgtttccaatgtttgaccgtttcttatgcttctga
+CEI_chrVII_cont ggcattgtgtggtatgccatggggctgtttccaatgtttgaccgtttcttatgcttctga
+ANE_chrVII_cont ggcattgtgtggtatgccatggggttgtttccaatgtttgaccgtttcttatgcttctga
+BAL_chrVII_cont gacattttctgctccttttctatagtagttttgattttatcgagttccatacttactagt
+                *.**** * ** * . .. . . . *. **...** **     ***.* **. . .. * 
+
+CFF_chrVII_cont aatttgtcctttggccctaagatact-----------------atttgacgacttattct
+CEI_chrVII_cont aatttgtcctttggccctaagatact-----------------atttaacaacttattct
+ANE_chrVII_cont aatttgtcctttggccctaagatact-----------------atttaacaacttattct
+BAL_chrVII_cont aattccttctcgggtcctttaccacttaatgttctttcaagtgatctcctcgcttggtca
+                ****. *.**. **.***  . .***                 **.*  . .***. ** 
+
+CFF_chrVII_cont aatttatgttggacgttcggtcaacttttcgctgctggtattatggaaa-----attccc
+CEI_chrVII_cont aatctttgctggacttttggtcaacttttcgctgctggtattatgaaaa-----actccc
+ANE_chrVII_cont aatctttgctggacttttggtcaacttttcgctgctggtattatgaaaa-----actccc
+BAL_chrVII_cont atccttccttttttaatcagccaccatggagattcaggggcgagaaagatgcctaccgcc
+                * ..* . .*   .  *..*.** * *   * * * ** .. * ..*.*     *.. **
+
+CFF_chrVII_cont agaacaaatatgccaactcagaactaggatataagctaccttttgctttgcagtggatct
+CEI_chrVII_cont aaaataagtaccctaactcagatctaggctataggctaccttttgctttgcagtggatct
+ANE_chrVII_cont aaaataagtaccctaactcagatctaggctataggctaccttttgctttgcagtggatct
+BAL_chrVII_cont aaaggaaggggccagatccactgcaaagcaaaaggtagcctatagcctagatctgagtta
+                *.*. **. .  * .*..**   * *.*  * *.*. .*** * **.* *   **..*. 
+
+CFF_chrVII_cont ggccccttcctttggcggtaggtattttttttgcaccagagtctccatggtggctggtta
+CEI_chrVII_cont ggccccttcctttggcggtaggtatctttctcgcccctgaatctccatggtggttaatca
+ANE_chrVII_cont ggccccttcctttggcggtaggtatctttctcgcccctgaatctccatggtggttaatca
+BAL_chrVII_cont gggtacttattttgggagt-----ttttcataataccagcagcgaaaagttgaccaaaag
+                ** . *** .***** .**     *.**. * .. ** * . *   * * **.....  .
+
+CFF_chrVII_cont aaaaaggaaggattgatcaagcgaggagatcacttgaaagaacattaagtggtaaaggac
+CEI_chrVII_cont aaaagggaaggattgaccaagcaaggaagtcacttgaaagaacattaagtggtaaaggac
+ANE_chrVII_cont aaaagggaaggattgaccaagcaaggaagtcacttgaaagaacattgagtggtaaaggac
+BAL_chrVII_cont tccagcaaagattagaataagttgttaaat-----------------agtatcttagggc
+                   *. .***. * ** .***. .  *..*                 ***. .  ***.*
+
+CFF_chrVII_cont ccgagaaagaattactagtgactatggaactcgataaaatcaaaactactatagaaaagg
+CEI_chrVII_cont ccgagaaggaattactagtaagtatggaactcgataaaatcaaaactactatagaaaagg
+ANE_chrVII_cont ccgagaaggaattactagtaagtatggaactcgataaaatcaaaactactatagaaaagg
+BAL_chrVII_cont caaaggacaaatttcagaagcataagaaacggtcaaacattggaaacaaccccatggcat
+                * .**.* .**** * .. .  ** *.***     ** **...** .* . . . .. . 
+
+CFF_chrVII_cont agcagaaaatgtctgatgaagg------------aacttactgggattgtgtgaaagatg
+CEI_chrVII_cont agcagaaaatgtctgatgaagg------------aacttactgggattgtgtgaaagatg
+ANE_chrVII_cont agcagaaaatgtctgatgaagg------------aacttactgggattgtgtgaaagatg
+BAL_chrVII_cont accacacaatgcctgtcccacagcaatcatacccaaactcttgcaaaaatacagaatgaa
+                * ** * ****.*** .  * .            ** .* .** .*  .*....** . .
+
+CFF_chrVII_cont gtattaacaggagaagaacgagaatagcttgtttatgttggatcggtcaaaccacctgt-
+CEI_chrVII_cont gtattaaccggagaagaacgagaatagcttgtttatgttggatcggtcaaacctcttgt-
+ANE_chrVII_cont gtattaaccggagaagaacgagaatagcttgtttatgttggatcggtcaaacctcttgt-
+BAL_chrVII_cont aatgaaagccgctaaaaagaacaacgccatgatcaaagtgtaacggttacccatgtgatc
+                .    **   *  **.** .* **.. * ** *.* . ** * ****.*  *   . .* 
+
+CFF_chrVII_cont ------------ggtgcatcattaattggttattcaacttacttttatgaaaaagctggt
+CEI_chrVII_cont ------------ggtgcatcattaattggttattcaacttacttttatgaaaaagctggt
+ANE_chrVII_cont ------------ggtgcatcattaattggttattcaacttacttttatgaaaaagctggt
+BAL_chrVII_cont tactaaaggcccggtcatttgcaaaccgacaatttcacctgccatgtagcataaacatag
+                            ***   *... **..*.. ***. **.*.*. *   * * **.*  . 
+
+CFF_chrVII_cont gttagcactgatacggcttttactttcagtattatccaatattgtcttggtattgctgca
+CEI_chrVII_cont gttagcactgatacggcttttacttttagtattatccagtattgtcttggtattgctgca
+ANE_chrVII_cont gttagcactgatacggcttttacttttagtattatccagtattgtcttggtattgctgca
+BAL_chrVII_cont accgat-ttgccaggaaactgaaatttcataatctcctgtattgctattcaaagaaccat
+                ...... .** .* *.  .* *  **. .** * *** .*****.. *   *  . .   
+
+CFF_chrVII_cont acgttt-----gtatcctggtgggcttcaaaacattgtggcagatttgacctttatgctt
+CEI_chrVII_cont acgttt-----atatcctggtggggttcaaaatattgtggcagatttgacctttatacct
+ANE_chrVII_cont acgttt-----atatcctggtggggttcaaaatattgtggcagatttgacctttatacct
+BAL_chrVII_cont attttttttgaaaaacgggcagggcatagaaagatcctagaatggctgtgtcataaccct
+                *. ***     . * *  *  ***  * .*** **. *.* * . .**  .. **  *.*
+
+CFF_chrVII_cont ttgggctggcttttcaggctattatgttcttcattatcggtggtttaggatgttcagaca
+CEI_chrVII_cont ttggactggcttttcaggctattatgttcttcattatcggtggtttgggatgttcagaca
+ANE_chrVII_cont ttggactggcttttcaggctattatgttcttcattatcggtggtttgggatgttcagaca
+BAL_chrVII_cont cttgaatcaatgttgtggaaactaatagtgaccaagcagcagcttttggat------atg
+                .* *. * . * **  **  *.**    .  *   .. *  * *** ****      *..
+
+CFF_chrVII_cont ctcatggcgctaaaatgggtagtggtgctcttctaatggttgtcgcgttcttttacaacc
+CEI_chrVII_cont ctcatggcgctaaaatgggtagtggtgctcttctaatggttgtcgcgttcttttacaacc
+ANE_chrVII_cont ctcatggcgctaaaatgggtagtggtgctcttctaatggttgtcgcgttcttttacaacc
+BAL_chrVII_cont tcttcaaagctgtcatgagtggc-attcccctctcactttcatctgcctctttagcatcc
+                ... ... ***.  ***.**.*. .* *.*.*** *.  *..**   .***** .** **
+
+CFF_chrVII_cont tcggtattgcacctgttgttttttgcttagtgtctgaaatgccgtcttcaaggctaagaa
+CEI_chrVII_cont tcggtattgcacctgttgttttttgcttagtgtctgaaataccgtcttcaaggctaagaa
+ANE_chrVII_cont tcggtattgcacctgttgttttttgcttagtttctgaaataccgtcttcaaggctaagaa
+BAL_chrVII_cont tgagca-----------gcctcgtctagaagatcggggacttcttcattattatc--gtt
+                * .*.*           *..*. * .  *.  ** *..*. .* ** *.*  ...  *  
+
+CFF_chrVII_cont ccaaaacaattattttggctcgtaatgcttacaatgtgatccaagttgtagttacagttt
+CEI_chrVII_cont ccaaaacaattattttggctcgtaatgcttacaatgtgataagtattgtagtcacagttt
+ANE_chrVII_cont ctaaaacaattattttggctcgtaatgcttacaatgtaataagtattgtagtcacagttt
+BAL_chrVII_cont tggtgttagtgaacctggaccgtact-----caagatgggaaagatcaaaatcacttttc
+                . . . .*.* * ..*** .**** *     *** .*..   . .*.. *.*.**  **.
+
+CFF_chrVII_cont tgatcatgtaccaattgaactcagagaaatggaattggg--gtgctaaatcaggcttttt
+CEI_chrVII_cont tgatcatgtaccaattgaactcagagaaatggaactggg--gtgctaaatcaggcttttt
+ANE_chrVII_cont tgatcatgtaccaattgaactcagagaaatggaactggg--gtgctaagtcaggcttttt
+BAL_chrVII_cont ttaccttgctcc--tccatctctatcgagttgaattcggtagcgttcacgccattctcga
+                * *.* **. **  *. * *** .  .*.* ***.* **  *.*.* *  * . ..*.  
+
+CFF_chrVII_cont ctggggaggattttgtctggccactttagcttgggctgttgtcgatttaccagaaaccgc
+CEI_chrVII_cont ctggggaggattttgtctggccactttagcttgggctgttgtcgatttaccagaaaccgc
+ANE_chrVII_cont ctggggaggattttgtctggccactttagcttgggctgttgtcgatttaccagaaaccgc
+BAL_chrVII_cont tctcatctaagtttgagtcgttcctgtctttttttctgtttattaatgaagataagccct
+                ..  .   .* ****  * *.. ** *  .**   *****  . * * *  * **.** .
+
+CFF_chrVII_cont tggcaggacttttattgagataaatgaattgtttagacttggtgttccagcaagaaagtt
+CEI_chrVII_cont tggtaggacttttattgagataaatgaattgtttagacttggtgttccagcaagaaagtt
+ANE_chrVII_cont tggcaggacttttattgagataaatgaattgtttagacttggtgttccagcaagaaagtt
+BAL_chrVII_cont tcat--------------------------------------------------------
+                * ..                                                        
+
+CFF_chrVII_cont caagtcgactaaagtcgacccttttgcagctgccaaagcagtagctgtagaaattaatgt
+CEI_chrVII_cont caagtcgactaaagtggacccttttgcagctgccaaagcagctgctgcagaaaataatgt
+ANE_chrVII_cont caagtcgactaaagtggacccttttgcagctgccaaagcagcagctgcagaaattaatgt
+BAL_chrVII_cont ------------------------------------------------------------
+                                                                            
+
+CFF_chrVII_cont tagagatccgaaggaagatttggaaacttctgtggtagatgaagggcgaagccccccatc
+CEI_chrVII_cont taaagatccgaaggaagatttggaagcttctgtggtagatgaagggcgaagcaccccatc
+ANE_chrVII_cont taaagatccgaaggaagatttggaaacttctgtggtagatgaagggcgaagcaccccatc
+BAL_chrVII_cont ------------------------------------------------------------
+                                                                            
+
+CFF_chrVII_cont tgttgtgaacaaatga
+CEI_chrVII_cont tgttgtgaacaaatga
+ANE_chrVII_cont tgttgtgaacaagtga
+BAL_chrVII_cont ----------------
+                                

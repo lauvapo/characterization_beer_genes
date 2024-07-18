@@ -1,0 +1,211 @@
+---
+title: "Blast Maltose"
+format: html
+editor: visual
+author: Laura Varón Pozuelo
+---
+
+```{r}
+rm (list = ls ())
+library(dplyr)
+dir1 <- 'C:\\Users\\Usuario\\Laura Varón\\blast'
+dir2 <- "C:\\Users\\Usuario\\Laura Varón\\genomes"
+```
+
+```{r}
+setwd(dir1)
+cepas_files <- list.files(dir2, pattern = ".fa")
+
+cepas <- gsub("\\.(fasta|fa)$", "", cepas_files)
+
+lines <- readLines('genes.fa')
+genes_info <- lines[grep("^>", lines)]
+
+# Eliminar el símbolo ">" al inicio de cada línea y extraer el gen
+genes_info <- gsub("^>", "", genes_info)
+gen <- sub(" .*", "", genes_info)
+
+# Inicializar vectores para almacenar los datos
+referencia <- character(length(genes_info))
+cromosoma <- character(length(genes_info))
+
+# Iterar sobre cada línea para extraer referencia y cromosoma
+for (i in seq_along(genes_info)) {
+  line <- genes_info[i]
+  if (grepl("\\[organism=([a-zA-Z\\-_0-9]+)\\]", line)) {
+    referencia[i] <- sub(".*\\[organism=([a-zA-Z\\-_0-9]+)\\].*", "\\1", line)
+  } else {
+    referencia[i] <- "" # Dejar en blanco si no hay referencia
+  }
+  if (grepl("\\[chromosome=[IVXLCDM]+\\]", line)) {
+    cromosoma[i] <- sub(".*\\[chromosome=([IVXLCDM]+)\\].*", "\\1", line)
+  } else {
+    cromosoma[i] <- "" # Dejar en blanco si no hay cromosoma
+  }
+}
+genes_df <- data.frame(gen = gen, referencia = referencia, cromosoma = cromosoma, stringsAsFactors = FALSE)
+```
+
+```{r}
+setwd(dir2)
+contigs_list <- list()
+# Leer los archivos y extraer los contigs
+contigs_list <- lapply(cepas_files, function(file) {
+  lines <- readLines(file)
+  contigs <- lines[grep("^>", lines)]
+  contigs <- gsub("^>", "", contigs)
+  file <- gsub(".(fasta|fa)$", "", file)
+  contigs <- paste0(file, '_', contigs)
+  return(contigs)
+})
+contigs_list <- lapply(contigs_list, function(x) {
+  sapply(strsplit(x, " "), `[`, 1)
+})
+
+
+# Asignar nombres a los elementos de la lista
+names(contigs_list) <- cepas
+
+max_length <- max(sapply(contigs_list, length))
+
+# Rellenar las listas más cortas con NA para que todas tengan la misma longitud
+contigs_list_padded <- lapply(contigs_list, function(x) {
+  if (length(x) < max_length) {
+    c(x, rep(NA, max_length - length(x)))
+  } else {
+    x
+  }
+})
+
+contigs_df <- as.data.frame(contigs_list_padded)
+```
+
+```{r}
+setwd(dir1)
+files <- list.files(pattern = ".tsv")
+genes <- sapply(files, function(x) substr(x, 7, nchar(x) - 4))
+lista_dataframes <- list()
+
+for (i in 1:length(files)) {
+  file <- files[i]
+  nombre <- genes[i]
+  df <- read.delim(file, header = TRUE, sep = "\t", row.names = NULL)
+  
+  if (nrow(df) > 0) {
+    df$strain <- NA
+    df$chr <- NA
+  }
+  
+  lista_dataframes[[nombre]] <- df
+}
+
+
+df <- do.call(rbind, lista_dataframes)
+```
+
+```{r}
+rownames(df) <- seq_len(nrow(df))
+colnames(df) <- c( "gene", "accession", "% match", "align_length", "mismatch", "gapopen", "query_length", "start", "end", "e.value","bitscore","strain", "chr")
+for (col in names(contigs_list)) {
+  for (i in seq_along(contigs_list[[col]])) {
+    accession <- contigs_df[[col]][i]
+    matching_indices <- which(df$accession == accession)
+    df$strain[matching_indices] <- col
+    chromosome <- accession[grep("chr", accession)]
+    chromosome <- sub(".*_chr", "", chromosome)
+    df$chr[matching_indices] <- chromosome
+    if (grepl("LIUU010000", df$accession[i])) {
+    df$strain[i] <- 'W303'
+    }
+    if (grepl("CABIKC010000", df$accession[i])) {
+    df$strain[i] <- 'MAL'
+    } 
+  }
+}
+df <- df[, -ncol(df)]
+```
+
+```{r}
+genes_df$gen <- as.character(genes_df$gen)
+df$reference <- character(nrow(df))
+df$ref_chr <- character(nrow(df))
+
+for (i in seq_len(nrow(df))) {
+  gen_name <- df$gene[i]
+  idx <- which(grepl(paste0("^", gen_name, "$"), genes_df$gen))
+  
+  if (length(idx) > 0) {
+    if (gen_name == 'STA1') {
+      df$reference[i] <- 'S.cerevisiae_var.diastaticus'
+    } 
+     else if (gen_name == 'IMA4') {
+      df$reference[i] <- 'Saccharomyces_cerevisiae_S288C'
+    }
+    else {
+      df$reference[i] <- genes_df$referencia[idx[1]]
+    }
+    df$ref_chr[i] <- genes_df$cromosoma[idx[1]]
+  } else {
+    df$reference[i] <- ""
+    df$ref_chr[i] <- ""
+  }
+}
+```
+
+```{r}
+CNV <- df %>% 
+  count(gene, strain, chr, reference, ref_chr)
+
+colnames(CNV) <- c( "gene", "strain", "chr", "reference", "ref_chr", "n_copies")
+CNV_matched <- df %>%
+  inner_join(CNV, by = c("gene", "strain", "chr", "reference", "ref_chr"))
+CNV_matched <- CNV_matched %>%
+  select(gene, strain, chr, reference, ref_chr, n_copies, `% match`, e.value, bitscore)
+
+# Renombrar las columnas para que coincidan con el formato deseado
+colnames(CNV_matched) <- c("gene", "strain", "chr", "reference", "ref_chr", "n_copies", "%_match", "e.value", "bitscore")
+
+write.table(CNV_matched, file = 'CNV.tsv', sep = "\t", row.names = FALSE, quote = FALSE)
+```
+
+```{r}
+#variables <- ls()
+
+#rm(list = setdiff(variables, 
+#variables[sapply(variables, function(x) is.data.frame(get(x)))]), variables)
+```
+
+Para cada gen:
+
+Saco un df con los cromosomas de cada especie y las coordenadas
+
+```{r}
+dataframes_list <- list()
+
+for (i in genes) {
+  # Crear el nombre del dataframe
+  dataf_name <- paste0(i, "_df")
+  
+  # Filtrar las filas correspondientes al gen 'i' y seleccionar las columnas específicas
+  dataf <- df[df$gene == i, c("accession", "e.value", "end")]
+  colnames(dataf) <- c( "accession", "start", "end")
+  # Añadir el dataframe a la lista con el nombre correspondiente (opcional)
+  dataframes_list[[dataf_name]] <- dataf
+  
+  # Crear el nombre del archivo
+  file_name <- paste0(i, "_data.tsv")
+  
+  # Guardar el dataframe en un archivo TSV
+  write.table(dataf, file = file_name, sep = "\t", row.names = FALSE, quote = FALSE)
+}
+```
+
+Las coordenadas que me da son del cromosoma, para sacar la secuencia tengo que poner las coordenadas y buscar dentro del archivo, pero empezando de 0 cada vez que tengo un nuevo cromosoma.
+
+### identity
+
+The extent to which two (nucleotide or amino acid) sequences have the same residues at the same positions in an alignment, often expressed as a percentage.
+
+### similarity
+
+The extent to which nucleotide or protein sequences are related. Similarity between two sequences can be expressed as percent sequence identity and/or percent positive substitutions.

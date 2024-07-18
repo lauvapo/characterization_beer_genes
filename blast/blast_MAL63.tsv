@@ -1,0 +1,2 @@
+gene	accession	%match	align_length	mismatch	gapopen	query_length	start	end	e-value	bitscore
+MAL63	CFF_chrVII_contig_6	97.839	1203	26	0	1	1203	28694	27492	0.0	2078

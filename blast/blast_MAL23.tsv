@@ -1,0 +1,4 @@
+gene	accession	%match	align_length	mismatch	gapopen	query_length	start	end	e-value	bitscore
+MAL23	CFF_chrVII_contig_6	96.446	1660	43	12	1	1654	29070	27421	0.0	2724
+MAL23	ANE_chrVII_contig_2	95.411	1656	74	2	1	1654	19811	18156	0.0	2636
+MAL23	CEI_chrVII_contig_1	95.169	1656	77	3	1	1654	16953	15299	0.0	2612

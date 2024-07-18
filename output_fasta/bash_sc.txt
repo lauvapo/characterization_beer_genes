@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Directorio de entrada y archivo de referencia
+input_dir="C:/Users/Usuario/Laura Varón/output_fasta"
+reference="GCA_000146045.2_R64_genomic.fna"
+
+# Lista de archivos de entrada
+files=(
+"MAL33_multi.fasta"
+"MAL61_multi.fasta"
+"MAL63_multi.fasta"
+"MPH2_multi.fasta"
+"MPH3_multi.fasta"
+"STA1_multi.fasta"
+"IMA1_multi.fasta"
+"IMA2_multi.fasta"
+"IMA3_multi.fasta"
+"IMA4_multi.fasta"
+"IMA5_multi.fasta"
+"MAL11_multi.fasta"
+"MAL12_multi.fasta"
+"MAL13_multi.fasta"
+"MAL21_multi.fasta"
+"MAL23_multi.fasta"
+"MAL31_multi.fasta"
+"MAL32_multi.fasta"
+)
+
+# Iterar sobre cada archivo y ejecutar minimap2
+for file in "${files[@]}"; do
+    query="$input_dir/$file"
+    output="${file%.fasta}_aligned.paf"
+    echo "Ejecutando minimap2 para $file"
+    minimap2 -ax map-ont --secondary=no "$reference" "$query" > "$output"
+done
